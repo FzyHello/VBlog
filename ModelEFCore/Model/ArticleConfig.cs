@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelEFCore
+namespace ModelEFCore.Model
 {
-    internal class UserInfoConfig : IEntityTypeConfiguration<UserInfo>
+    internal class ArticleConfig : IEntityTypeConfiguration<Article>
     {
-        public void Configure(EntityTypeBuilder<UserInfo> builder)
+        public void Configure(EntityTypeBuilder<Article> builder)
         {
-            builder.ToTable("UserInfo");
+            builder.ToTable("Article");
         }
     }
 }

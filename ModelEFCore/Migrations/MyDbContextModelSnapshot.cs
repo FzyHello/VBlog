@@ -25,34 +25,44 @@ namespace ModelEFCore.Migrations
             modelBuilder.Entity("ModelEFCore.Account", b =>
                 {
                     b.Property<string>("Uuid")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasComment("用户唯一标识符");
 
                     b.Property<DateTime?>("Create_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("创建时间");
 
                     b.Property<DateTime?>("Delete_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("删除时间");
 
                     b.Property<string>("Id")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("登录账号");
 
                     b.Property<bool>("Is_Deleted")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("tinyint(1)")
+                        .HasComment("是否有效（0:有效 1:可正常登录）");
 
                     b.Property<DateTime?>("Last_LoginTime")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("最近一次登录时间");
 
                     b.Property<string>("Password")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("用户密码");
 
                     b.Property<string>("Remark")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("备注信息");
 
                     b.Property<int>("Role")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasComment("角色权限（0-管理员 1：普通用户）");
 
                     b.Property<string>("User_Name")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("用户名");
 
                     b.HasKey("Uuid");
 
@@ -62,40 +72,52 @@ namespace ModelEFCore.Migrations
             modelBuilder.Entity("ModelEFCore.Article", b =>
                 {
                     b.Property<string>("Uuid")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasComment("用户唯一标识符");
 
                     b.Property<string>("Account_Id")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("关联用户id");
 
                     b.Property<string>("Article_Content")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("文章内容");
 
                     b.Property<string>("Article_Good")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("文章点赞量");
 
                     b.Property<string>("Article_Image_Src")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("文章图片");
 
                     b.Property<string>("Article_Title")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("文章标题");
 
                     b.Property<string>("Article_Type")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("文章类型");
 
                     b.Property<DateTime?>("Create_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("文章创建时间");
 
                     b.Property<DateTime?>("Delete_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("删除时间");
 
                     b.Property<bool>("Is_Deleted")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("tinyint(1)")
+                        .HasComment("是否有效（0:有效 1:可正常登录）");
 
                     b.Property<DateTime?>("Last_UpdateTime")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("此次更改时间");
 
                     b.Property<string>("Remark")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("备注信息");
 
                     b.HasKey("Uuid");
 
@@ -105,31 +127,40 @@ namespace ModelEFCore.Migrations
             modelBuilder.Entity("ModelEFCore.ArticleComment", b =>
                 {
                     b.Property<string>("Uuid")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasComment("用户唯一标识符");
 
                     b.Property<string>("Account_Id")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("关联用户id");
 
                     b.Property<string>("Article_Id")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("关联文章id");
+
+                    b.Property<int?>("Comment_Good")
+                        .HasColumnType("int")
+                        .HasComment("评论点赞量");
 
                     b.Property<string>("Comment_Text")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("评论内容");
 
                     b.Property<DateTime?>("Create_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("评论创建时间");
 
                     b.Property<DateTime?>("Delete_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("删除时间");
 
                     b.Property<bool>("Is_Deleted")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("tinyint(1)")
+                        .HasComment("是否有效（0:有效 1:已删除）");
 
                     b.Property<string>("Remark")
-                        .HasColumnType("longtext");
-
-                    b.Property<int?>("评论_Good")
-                        .HasColumnType("int");
+                        .HasColumnType("longtext")
+                        .HasComment("备注信息");
 
                     b.HasKey("Uuid");
 
@@ -139,43 +170,56 @@ namespace ModelEFCore.Migrations
             modelBuilder.Entity("ModelEFCore.UserInfo", b =>
                 {
                     b.Property<string>("Uuid")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasComment("用户唯一标识符");
 
                     b.Property<string>("Account_Id")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("关联用户登录表id");
 
                     b.Property<DateTime?>("Create_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("创建时间");
 
                     b.Property<DateTime?>("Delete_Time")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasComment("删除时间");
 
                     b.Property<bool>("Is_Deleted")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("tinyint(1)")
+                        .HasComment("是否有效（0:有效 1:可正常登录）");
 
                     b.Property<string>("Remark")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("备注信息");
 
                     b.Property<int?>("User_Age")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasComment("账号年龄");
 
                     b.Property<string>("User_Autograph")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("个性签名");
 
                     b.Property<string>("User_Day")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("签到天数");
 
                     b.Property<int?>("User_Email")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasComment("账号邮箱");
 
                     b.Property<int?>("User_Experience")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasComment("账号经验（每日登录5积分，签到3积分，发表文章3积分，每日点赞文章1积分上限5，发表评论1积分上限5）");
 
                     b.Property<string>("User_Image_Src")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("用户头像");
 
                     b.Property<string>("User_Phone")
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasComment("手机号");
 
                     b.HasKey("Uuid");
 

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelEFCore
+namespace ModelEFCore.Model
 {
     internal class AccountConfig : IEntityTypeConfiguration<Account>
     {

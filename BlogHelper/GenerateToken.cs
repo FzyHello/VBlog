@@ -1,4 +1,4 @@
-﻿using ModelEFCore;
+﻿using ModelEFCore.Model;
 
 namespace BlogHelper
 {
