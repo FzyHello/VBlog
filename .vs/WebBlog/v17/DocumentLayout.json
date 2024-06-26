@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\bloghelper\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|solutionrelative:bloghelper\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\migrations\\20240626133942_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\migrations\\20240626133942_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\articlecommentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\articlecommentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\articlecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\articlecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\articleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\articleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\accountconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +35,28 @@
       "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\bloghelper\\bloghelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|solutionrelative:bloghelper\\bloghelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\userinfoconfig .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\userinfoconfig .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\migrations\\20240626134226_first.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\migrations\\20240626134226_first.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626134226_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModelEFCore\\Migrations\\20240626134226_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\migrations\\20240626133942_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|solutionrelative:modelefcore\\migrations\\20240626133942_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D842948-37F6-40D1-A5A2-A02B4BF64418}|ModelEFCore\\ModelEFCore.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\modelefcore\\modelefcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -31,12 +67,20 @@
       "RelativeMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|solutionrelative:webblog\\webblog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\webblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|solutionrelative:webblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\webblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|solutionrelative:webblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\bloghelper\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|solutionrelative:bloghelper\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\bloghelper\\bloghelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}|BlogHelper\\BlogHelper.csproj|solutionrelative:bloghelper\\bloghelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|c:\\users\\13762\\desktop\\\u535A\u5BA2\u540E\u7AEF\\vblog\\webblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F811ECCC-393C-4980-9F83-579074FE1613}|WebBlog\\WebBlog.csproj|solutionrelative:webblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,19 +95,158 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240626133942_Init.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626133942_Init.Designer.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Migrations\\20240626133942_Init.Designer.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626133942_Init.Designer.cs",
+              "RelativeToolTip": "ModelEFCore\\Migrations\\20240626133942_Init.Designer.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAIwGkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:42:37.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240626134226_First.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626134226_First.Designer.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Migrations\\20240626134226_First.Designer.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626134226_First.Designer.cs",
+              "RelativeToolTip": "ModelEFCore\\Migrations\\20240626134226_First.Designer.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:42:33.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240626134226_First.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626134226_First.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Migrations\\20240626134226_First.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626134226_First.cs",
+              "RelativeToolTip": "ModelEFCore\\Migrations\\20240626134226_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:42:26.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\MyDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Migrations\\MyDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\MyDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ModelEFCore\\Migrations\\MyDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:41:45.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240626133942_Init.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626133942_Init.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Migrations\\20240626133942_Init.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Migrations\\20240626133942_Init.cs",
+              "RelativeToolTip": "ModelEFCore\\Migrations\\20240626133942_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:39:42.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticleCommentConfig.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleCommentConfig.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\ArticleCommentConfig.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleCommentConfig.cs",
+              "RelativeToolTip": "ModelEFCore\\ArticleCommentConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:23:05.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticleComment.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleComment.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\ArticleComment.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleComment.cs",
+              "RelativeToolTip": "ModelEFCore\\ArticleComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:23:18.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserInfoConfig .cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\UserInfoConfig .cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\UserInfoConfig .cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\UserInfoConfig .cs",
+              "RelativeToolTip": "ModelEFCore\\UserInfoConfig .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:11:39.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\UserInfo.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\UserInfo.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\UserInfo.cs",
+              "RelativeToolTip": "ModelEFCore\\UserInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:10:38.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleConfig.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\ArticleConfig.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ArticleConfig.cs",
+              "RelativeToolTip": "ModelEFCore\\ArticleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:01:08.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Article.cs",
+              "RelativeDocumentMoniker": "ModelEFCore\\Article.cs",
+              "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Article.cs",
+              "RelativeToolTip": "ModelEFCore\\Article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:58:49.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "GenerateToken.cs",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\BlogHelper\\GenerateToken.cs",
               "RelativeDocumentMoniker": "BlogHelper\\GenerateToken.cs",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\BlogHelper\\GenerateToken.cs",
               "RelativeToolTip": "BlogHelper\\GenerateToken.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwBgAAAAXAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:59:00.79Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -73,41 +256,41 @@
               "RelativeDocumentMoniker": "ModelEFCore\\MyDbContext.cs",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\MyDbContext.cs",
               "RelativeToolTip": "ModelEFCore\\MyDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvx0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:58:59.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AccountConfig.cs",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\AccountConfig.cs",
               "RelativeDocumentMoniker": "ModelEFCore\\AccountConfig.cs",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\AccountConfig.cs",
               "RelativeToolTip": "ModelEFCore\\AccountConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:58:58.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Account.cs",
               "RelativeDocumentMoniker": "ModelEFCore\\Account.cs",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\Account.cs",
               "RelativeToolTip": "ModelEFCore\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:58:57.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlogHelper",
+              "DocumentIndex": 18,
+              "Title": "BlogHelper.csproj",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\BlogHelper\\BlogHelper.csproj",
               "RelativeDocumentMoniker": "BlogHelper\\BlogHelper.csproj",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\BlogHelper\\BlogHelper.csproj",
@@ -119,21 +302,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ModelEFCore",
+              "DocumentIndex": 14,
+              "Title": "ModelEFCore.csproj",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ModelEFCore.csproj",
               "RelativeDocumentMoniker": "ModelEFCore\\ModelEFCore.csproj",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\ModelEFCore\\ModelEFCore.csproj",
               "RelativeToolTip": "ModelEFCore\\ModelEFCore.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-25T14:58:55.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebBlog",
+              "DocumentIndex": 15,
+              "Title": "WebBlog.csproj",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\WebBlog\\WebBlog.csproj",
               "RelativeDocumentMoniker": "WebBlog\\WebBlog.csproj",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\WebBlog\\WebBlog.csproj",
@@ -145,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\WebBlog\\appsettings.json",
               "RelativeDocumentMoniker": "WebBlog\\appsettings.json",
@@ -158,13 +341,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\WebBlog\\Program.cs",
               "RelativeDocumentMoniker": "WebBlog\\Program.cs",
               "ToolTip": "C:\\Users\\13762\\Desktop\\\u535A\u5BA2\u540E\u7AEF\\VBlog\\WebBlog\\Program.cs",
               "RelativeToolTip": "WebBlog\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:58:48.985Z",
               "EditorCaption": ""

@@ -11,7 +11,11 @@ namespace ModelEFCore
 {
     public class MyDbContext:DbContext
     {
+        public DbSet<ArticleComment> ArticleComments { get; set; }
+        public DbSet<Article> Article { get; set; }
+        public DbSet<Article> UserInfos { get; set; }
         public DbSet<Account> Accounts { get; set; } // 定义一个DbSet属性，用于表示Account表的实体集合。
+
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
 
