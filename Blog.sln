@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogHelper", "BlogHelper\BlogHelper.csproj", "{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{970A2013-B40D-4AE0-B396-F11E932E0E7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7737BB9-A3E8-4F41-99EA-50B039570280}"
@@ -37,10 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13ACC3AA-7776-4FE6-8124-095D3FB90E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B42B7D7-B644-42AC-B0C5-26B2A586E2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B42B7D7-B644-42AC-B0C5-26B2A586E2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B42B7D7-B644-42AC-B0C5-26B2A586E2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,7 +80,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{13ACC3AA-7776-4FE6-8124-095D3FB90E3D} = {F7737BB9-A3E8-4F41-99EA-50B039570280}
 		{8B42B7D7-B644-42AC-B0C5-26B2A586E2CE} = {F7737BB9-A3E8-4F41-99EA-50B039570280}
 		{EE11C76C-0C25-48D4-8290-50AEA1D6FEC8} = {F7737BB9-A3E8-4F41-99EA-50B039570280}
 		{664B47C0-9294-4EFA-AA8C-B8541F70B3CB} = {F7737BB9-A3E8-4F41-99EA-50B039570280}

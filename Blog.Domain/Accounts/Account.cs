@@ -7,7 +7,7 @@ namespace Blog.Accounts
         /// <summary>
         /// 用户唯一标识符
         /// </summary>
-        public string? Uuid { get; set; }
+        public Guid? Uuid { get; set; }
 
         /// <summary>
         /// 登录账号
