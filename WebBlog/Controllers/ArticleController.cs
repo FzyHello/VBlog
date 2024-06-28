@@ -25,6 +25,7 @@ namespace WebBlog.Controllers
         }
 
         #region 获取该用户按时间顺序的文章，用于展示归档记录
+        [HttpPost("record")]
         public ActionResult<List<String>> ObtainPersonArticleRecord([FromBody] Account account)
         {
             //写一个判断保证账户密码不为空
@@ -53,6 +54,7 @@ namespace WebBlog.Controllers
         #endregion
 
         #region 获取该用户所有的文章标签，用于展示标签分类
+        [HttpPost("lable")]
         public ActionResult<List<String>> ObtainArticleLable([FromBody] Account account)
         {
             //写一个判断保证账户密码不为空
@@ -81,7 +83,7 @@ namespace WebBlog.Controllers
         #endregion
 
         #region 获取该用户最近的五条文章列表，用于首页展示
-        [HttpPost]
+        [HttpPost("article")]
         public ActionResult<List<Article>> ObtainArticle([FromBody] Account account)
         {
             //写一个判断保证账户密码不为空

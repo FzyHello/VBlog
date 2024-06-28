@@ -16,7 +16,7 @@ namespace BlogHelper
                                      now.Day.ToString("00") +
                                      now.Hour.ToString("00") +
                                      now.Minute.ToString("00") +
-                                     now.Second.ToString("00");
+                                     now.Second.ToString("00") +"LOVE";
 
             Random random = new Random();
             // 随机生成5位数

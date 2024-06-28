@@ -65,7 +65,7 @@ namespace WebBlog.Controllers
                             dbCtx.SaveChanges();
                             string token = _tokenGenerator.LoginToken(result);
                             _cache.SetString(result.User_Name, token); // 假设这是将token存储到缓存的代码。
-                            return Ok("普通用户登录成功!" + token);
+                            return Ok(token);
                         }
                         catch (Exception ex)
                         {
