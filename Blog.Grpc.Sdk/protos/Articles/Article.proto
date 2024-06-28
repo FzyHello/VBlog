@@ -1,0 +1,52 @@
+﻿syntax = "proto3";
+option csharp_namespace = "ArticleGrpc.Sdk";
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/any.proto";
+import "google/protobuf/timestamp.proto";
+
+package ArticleService;
+
+service ArticleGrpc{
+	//获取文章分页
+	rpc GetArticlePageAsync(PageRequest) returns(stream ArticleResponse);
+	//批量获取文章
+	rpc GetAllArticleAsync (EmptyRequest) returns(stream ArticleResponse);
+	//根据ids获取文章
+	rpc GetArticlesAsync (stream IdsRequest) returns(ArticleResponse);
+	//根据id获取文章
+	rpc GetArticleAsync (IdRequest) returns(ArticleResponse);
+}
+
+
+message PageRequest{
+	 int32 SkipCount=1;
+	 int32 MaxResultCount=2;
+	  int32 ModuleType=3;
+}
+
+message ArticleResponse{
+	int64 TotalCount=1;
+	repeated ArticleData datas = 2;
+}
+
+message ArticleData{
+	string Id=1;
+	string Title=2;
+	string ShortTitle=3;
+	string Content=4;
+	string Author=5;
+	string CreateTime=6;
+}
+
+message EmptyRequest{
+	
+}
+
+message IdsRequest{
+ repeated string Ids=1;
+}
+
+message IdRequest{
+	string Id=1;
+}
