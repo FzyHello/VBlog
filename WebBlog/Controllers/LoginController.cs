@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.DependencyInjection;
 using ModelEFCore;
 using ModelEFCore.Model;
+using StackExchange.Redis;
 
 namespace WebBlog.Controllers
 {
@@ -22,6 +24,7 @@ namespace WebBlog.Controllers
             this.dbCtx = dbCtx;
             _tokenGenerator = tokenGenerator;
             _cache = cache;
+
         }
 
         # region 登录验证
@@ -61,10 +64,13 @@ namespace WebBlog.Controllers
 
                         try
                         {
+
                             // 保存更改到数据库
                             dbCtx.SaveChanges();
                             string token = _tokenGenerator.LoginToken(result);
                             _cache.SetString(result.User_Name, token); // 假设这是将token存储到缓存的代码。
+                            //根据token去redis中获取用户信息
+                           
                             return Ok(token);
                         }
                         catch (Exception ex)

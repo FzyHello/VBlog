@@ -15,17 +15,16 @@ namespace WebBlog.Controllers
         private readonly MyDbContext dbCtx;
         private readonly GenerateToken _tokenGenerator;
         private readonly ILogger<LoginController> _logger;
-        private readonly IDistributedCache _cache;
-
-        public PersonalController(MyDbContext dbCtx, GenerateToken tokenGenerator, IDistributedCache cache)
+        public PersonalController(MyDbContext dbCtx, GenerateToken tokenGenerator)
         {
             this.dbCtx = dbCtx;
             _tokenGenerator = tokenGenerator;
-            _cache = cache;
+
         }
 
         # region 获取个人信息
         [HttpPost]
+
         public ActionResult<UserInfo> ObtainPersonal([FromBody] Account account)
         {
             //写一个判断保证账户密码不为空
