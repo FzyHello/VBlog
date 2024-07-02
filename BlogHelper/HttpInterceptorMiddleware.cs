@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Distributed;
+using ModelEFCore.Migrations;
 
 
 
@@ -18,28 +19,41 @@ public class HttpInterceptorMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-
-
-
-        // 在这里添加你的拦截逻辑
-        //路径为/Login的请求不拦截 切继续执行/Login请求
-
-        // 遍历Redis中的键值对
-        if (context.Request.Path == "/Login")
+        try
         {
+            if (context.Request.Path == "/Login")
+            {
+                await _next(context);
+                return;
+            }
+            string token = context.Request.Headers["Authorization"];
+            //去掉token 前缀bearer
+            int index = token.IndexOf("xxx"); // 查找"xxx"的位置
+            if (index != -1) // 如果找到了"xxx"
+            {
+                string part1 = token.Substring(0, index); // 第一段字符串，即"xxx"前的部分
+                string part2 = token.Substring(index + 3); // 第二段字符串，即"xxx"后的部分
+                string result = part2.Trim('/').Trim('"');
+                if (await _cache.GetStringAsync(part1) == part2)
+                {
+                    context.Items["UserId"] = part1;
+                    //如果token存在，则继续执行下一个中间件
+                    await _next(context);
+                    return;
+                }
+                else
+                {
+                    //如果token不存在，则拦截请求
+                    context.Response.StatusCode = 401; // 设置状态码为401（未授权）
+                    await context.Response.WriteAsync("Unauthorized");
+                    return;
+                }
+            }
             await _next(context);
-            return; 
         }
-        string token = context.Request.Headers["Authorization"];
-        //去掉token 前缀bearer
-        if (!string.IsNullOrEmpty(token))token = token.Split(" ")[1];
-        var data = await _cache.GetAsync(token);
-
-        //根据token去判断redis中是否存在token，如果存在则继续执行，否则拦截请求。
-        //string key = _cache.Get("20240701233251LOVE12345627525");// 拦截请求，不继续执行下一个中间件。
-
-
-        // 如果不需要拦截，继续执行下一个中间件
-        await _next(context);
+        catch (Exception ex)
+        {
+            return;
+        }  
     }
 }
